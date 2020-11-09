@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 // @import "./css/_variable";
 @import "./_variable";
@@ -366,7 +367,7 @@ a {
     
     @media (max-width: 767px) {
         // background: transparent url('./img/sp/top.png') 0% 0% no-repeat cover;
-        background-image: url('./img/sp/top.png');
+        background-image: url('/img/sp/top.png');
         // background-size: contain;
         background-size: cover;
 
@@ -375,7 +376,7 @@ a {
     }
     
     @media (min-width: 768px) {
-        background-image: url('./img/top.png');
+        background-image: url('/img/top.png');
     }
 
 
@@ -418,7 +419,7 @@ a {
 .concept1__img {
     width: 600px;
     height: 400px;
-    background: transparent url('./img/concept-1.png') 0% 0% no-repeat padding-box;
+    background: transparent url('/img/concept-1.png') 0% 0% no-repeat padding-box;
     background-size: contain; //XDだとpadding-boxだがcontainかcoverっぽい
 
     @include mq('sm') {
@@ -549,7 +550,7 @@ a {
 
     @media (max-width: 767px) {
         // background: transparent url('./img/sp/top.png') 0% 0% no-repeat cover;
-        background-image: url('./img/sp/bg.png');
+        background-image: url('/img/sp/bg.png');
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -557,7 +558,7 @@ a {
     }
     
     @media (min-width: 768px) {
-        background-image: url('./img/bg.png');
+        background-image: url('/img/bg.png');
     }
 
     @include mq('sm') {
@@ -941,7 +942,7 @@ a {
 
 //contact
 .contact {
-    background: url(./img/contact.png) center center / cover;
+    background: url(/img/contact.png) center center / cover;
     margin-top: 225px;
     padding: 72px 40px 85px;
 
